@@ -14,7 +14,7 @@ interface ProductCategory {
   link: string;
 }
 
-const ProductCategories: React.FC = () => {
+export default function ProductCategories() {
   const t = useTranslations("HomePage.productCategories");
       const locale = useLocale();
 
@@ -73,14 +73,14 @@ const ProductCategories: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center  mb-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
           <motion.h2
-            className="text-4xl md:text-5xl font-black mb-4 text-slate-900 dark:text-white"
+            className="text-4xl md:text-5xl font-black mb-4 text-[#2f5e5a] dark:text-white"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -143,17 +143,17 @@ const ProductCategories: React.FC = () => {
 
                 {/* Content */}
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold mb-3 text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-2xl font-bold mb-3 text-[#000] dark:text-white group-hover:text-[#2f5e5a] dark:group-hover:text-blue-400 transition-colors">
                     {category.title}
                   </h3>
-                  <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                  <p className="text-black dark:text-slate-400 mb-6 leading-relaxed">
                     {category.description}
                   </p>
 
                   {/* CTA Link */}
                   <Link href={category.link}>
                     <motion.div
-                      className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-bold group/link"
+                      className="inline-flex items-center gap-2 text-[#2f5e5a] dark:text-blue-400 font-bold group/link"
                       whileHover={{ gap: 12 }}
                       transition={{ duration: 0.3 }}
                     >
@@ -180,4 +180,3 @@ const ProductCategories: React.FC = () => {
   );
 };
 
-export default ProductCategories;

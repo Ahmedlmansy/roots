@@ -70,6 +70,43 @@
         "title": "Frozen French Fries",
         "description": "Golden, crispy premium-cut potato products in various specialized styles."
       }
+    },
+     "productionTechnology": {
+      "title": "Advanced Freezing &",
+      "subtitle": "Production Systems",
+      "purityGuarantee": "Purity Guarantee",
+      "features": {
+        "freezing": {
+          "title": "Modern Freezing Systems",
+          "description": "Utilizing state-of-the-art IQF tunnels that prevent cell structure damage during freezing."
+        },
+        "hygiene": {
+          "title": "Strict Hygiene Protocols",
+          "description": "Automated cleaning systems and rigorous sanitation standards exceeding international safety norms."
+        },
+        "storage": {
+          "title": "Temperature-Controlled Storage",
+          "description": "Massive automated storage facility with redundant cooling systems for absolute safety."
+        }
+      },
+      "stats": {
+        "monitoring": "Monitoring",
+        "temperature": "Storage",
+        "certified": "Certified"
+      }
+    },
+    "ctaSection": {
+      "line1": "Built for reliability.",
+      "line2": "Designed for quality.",
+      "line3": "Prepared for growth.",
+      "description": "Join our network of global partners and experience excellence in frozen food production.",
+      "primaryButton": "Partner With Us",
+      "secondaryButton": "Learn More",
+      "indicators": {
+        "countries": "Countries",
+        "partners": "Partners",
+        "years": "Years Experience"
+      }
     }
   }
 }

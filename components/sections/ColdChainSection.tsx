@@ -7,7 +7,7 @@ import Image from "next/image";
 
 
 
-const ColdChainSection = () => {
+export default function ColdChainSection() {
         const t = useTranslations("HomePage.ColdChainSection");
 
   // Animation Variants
@@ -182,4 +182,3 @@ const ColdChainSection = () => {
   );
 };
 
-export default ColdChainSection;

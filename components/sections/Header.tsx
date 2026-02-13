@@ -9,7 +9,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-const Header = () => {
+export default function Header() {
   const locale = useLocale();
   const t = useTranslations("layout.header");
   const [isOpen, setIsOpen] = useState(false);
@@ -109,4 +109,3 @@ const Header = () => {
   );
 };
 
-export default Header;
