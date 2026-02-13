@@ -1,0 +1,38 @@
+{
+  "layout" :{
+    "header" :{
+    "home": "Home",
+    "facilities": "Facilities",
+    "our-products": "Our Products",
+    "production": "Production",
+    "quality": "Quality",
+    "about": "About Us",
+    "contact": "Contact"
+    },
+    "footer": {
+      "title" : "Roots Company",
+      "contact": "Contact Us",
+      "address": "123 Main Street, City, Country",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@roots.com",
+      "follow-us": "Follow Us",
+      "rights": "All rights reserved.",
+      "description" : "Roots Company is a leading provider of high-quality products and services. We are committed to delivering excellence and customer satisfaction.",
+      "about": "About Us",
+      "quality": "Quality",
+      "facilities": "Facilities",
+      "our-products": "Our Products",
+      "production": "Production",
+      "products": "Products",
+      "company": "Company"
+      
+      
+
+  }
+  ,
+  "HomePage": {
+    "title": "Welcome",
+    "description": "This is the homepage"
+  }
+  }
+}

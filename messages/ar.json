@@ -1,0 +1,34 @@
+{
+  "layout": {
+    "header": {
+      "home": "الرئيسية",
+      "facilities": "المرافق",
+      "our-products": "منتجاتنا",
+      "production": "الإنتاج",
+      "quality": "الجودة",
+      "about": "من نحن",
+      "contact": "اتصل بنا"
+    },
+    "footer": {
+      "title": "شركة روتس",
+      "contact": "اتصل بنا",
+      "address": "123 الشارع الرئيسي، المدينة، الدولة",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@roots.com",
+      "follow-us": "تابعنا",
+      "rights": "جميع الحقوق محفوظة.",
+      "description": "شركة روتس هي مزود رائد للمنتجات والخدمات عالية الجودة. نحن ملتزمون بتقديم التميز ورضا العملاء.",
+      "about": "من نحن",
+      "quality": "الجودة",
+      "facilities": "المرافق",
+      "our-products": "منتجاتنا",
+      "production": "الإنتاج",
+      "products": "المنتجات",
+      "company": "الشركة"
+    },
+    "HomePage": {
+      "title": "مرحباً",
+      "description": "هذه هي الصفحة الرئيسية"
+    }
+  }
+}
