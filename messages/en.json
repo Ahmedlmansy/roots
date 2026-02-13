@@ -53,6 +53,23 @@
       ],
       "imageAlt" : "Modern industrial freezing facility with stainless steel equipment"
 
+    },
+     "productCategories": {
+      "sectionTitle": "Product Categories",
+      "sectionDescription": "Discover our diverse range of premium frozen products, processed with care to maintain the highest quality standards.",
+      "viewRange": "View Range",
+      "fruits": {
+        "title": "Frozen Fruits",
+        "description": "Premium berries, mangoes, and tropical blends harvested at peak ripeness."
+      },
+      "vegetables": {
+        "title": "Frozen Vegetables",
+        "description": "Farm-fresh mixed greens, peas, and corn, processed instantly to preserve nutrients."
+      },
+      "fries": {
+        "title": "Frozen French Fries",
+        "description": "Golden, crispy premium-cut potato products in various specialized styles."
+      }
     }
   }
 }
