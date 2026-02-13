@@ -1,3 +1,4 @@
+import ColdChainSection from "@/components/sections/ColdChainSection";
 import HeroSection from "@/components/sections/HeroSections";
 
 export default  function HomePage({
@@ -9,6 +10,10 @@ export default  function HomePage({
       Hero Section
       */}
       <HeroSection />
+      {/* 
+      Cold Chain Section
+      */}
+      <ColdChainSection/>
     </div>
   );
 }

@@ -35,6 +35,24 @@
       "description": "Experience superior frozen fruits, vegetables, and potato products crafted with cutting-edge freezing technology and rigorous quality standards.",
       "btn_one": "Explore Our Products",
       "btn_two": "Our Technology"
+    },
+    "ColdChainSection" :{
+      "badge" : "Excellence in Cold Chain",
+      "title" : "Preserving Freshness\nat -18°C",
+      "description" : "Our advanced cold chain management ensures that every product retains its natural nutritional value and taste from the moment of harvest to the final delivery. We utilize rapid IQF (Individually Quick Frozen) methods to lock in vitamins and minerals at their peak.",
+      "items" : [
+        {
+          "title": "Optimized Harvest-to-Freezer Timeline"
+        },
+        {
+          "title": "Continuous Temperature Monitoring"
+        },
+        {
+          "title": "Global Export Standards Compliance"
+        }
+      ],
+      "imageAlt" : "Modern industrial freezing facility with stainless steel equipment"
+
     }
   }
 }
