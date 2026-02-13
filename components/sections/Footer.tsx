@@ -12,7 +12,7 @@ export default function Footer() {
     const t = useTranslations("layout.footer");
       const locale = useLocale();
     
-    const currentYear = new Date().getFullYear();
+    // const currentYear = new Date().getFullYear();
 
     const footerLinks = {
       company: [

@@ -1,10 +1,14 @@
+import HeroSection from "@/components/sections/HeroSections";
 
 export default  function HomePage({
 }) {
 
   return (
     <div>
-    
-      </div>
+      {/*
+      Hero Section
+      */}
+      <HeroSection />
+    </div>
   );
 }
