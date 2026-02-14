@@ -116,7 +116,7 @@ export default function CTASection() {
               },
             }}
           >
-            <Image src={"/images/Icon.png"} width={50} height={50} alt="Icon" />
+            <Image src={"/images/Icon_W.png"} width={50} height={50} alt="Icon" />
           </motion.div>
         </motion.div>
 
