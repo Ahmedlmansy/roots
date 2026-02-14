@@ -127,6 +127,116 @@
       "support": "Support",
       "shipping": "Shipping"
     }
+  },
+  "productTabs": {
+    "tabs": {
+      "frozenFruits": "Frozen Fruits",
+      "vegetables": "Vegetables",
+      "frenchFries": "French Fries",
+      "solutions": "Solutions"
+    },
+    "content": {
+      "frozenFruits": {
+        "title": "Premium Frozen Fruits",
+        "description": "Discover our wide range of premium frozen fruits, carefully selected and processed using advanced IQF technology to preserve natural taste, color, and nutritional value. From berries to tropical fruits, we offer the finest quality for your business needs."
+      },
+      "vegetables": {
+        "title": "Fresh Frozen Vegetables",
+        "description": "Our farm-fresh vegetables are harvested at peak ripeness and quickly frozen to lock in nutrients and flavor. We offer a comprehensive selection of mixed vegetables, peas, corn, and specialty items for foodservice and retail markets."
+      },
+      "frenchFries": {
+        "title": "Golden French Fries",
+        "description": "Experience the perfect crunch with our premium frozen french fries. Made from carefully selected potatoes and available in various cuts and styles, our fries deliver consistent quality and excellent taste for restaurants and food service operations."
+      },
+      "solutions": {
+        "title": "Custom B2B Solutions",
+        "description": "We provide tailored frozen food solutions for businesses worldwide. From custom packaging to specialized product development, our team works with you to meet your unique requirements and help grow your business."
+      }
+    }
+  }
+  ,
+  "TabFrozenFruits":{
+    "title": "Individually Quick Frozen (IQF) Fruits",
+    "description": "Our proprietary IQF technology preserves the cellular structure of every berry and slice. We capture fruits at the peak of ripeness, ensuring your production line receives consistent texture and vibrant natural color.",
+    "features": {
+      "texture": {
+        "title": "IQF Texture",
+        "description": "Advanced freezing prevents clumping and maintains structural integrity."
+      },
+      "nutrient": {
+        "title": "Nutrient Retention",
+        "description": "Process locks in vitamins and minerals immediately after harvest."
+      },
+      "taste": {
+        "title": "Natural Taste",
+        "description": "No added preservatives; just pure, mountain-fresh harvest flavor."
+      }
+    },
+    "badge": {
+      "title": "Premium Berries",
+      "grade": "Technical Grade A"
+    }
+  
+  },
+   "TabFrozenVegetables": {
+    "title": "Frozen Vegetables",
+    "description": "Grown with care and processed using advanced technology to ensure peak freshness for commercial kitchens and industrial food production.",
+    "features": {
+      "harvest": {
+        "title": "Peak Harvest Timing",
+        "description": "Our vegetables are harvested and frozen within 4 hours to stop the natural aging process and lock in sugar-to-starch ratios."
+      },
+      "sorting": {
+        "title": "Advanced Sorting",
+        "description": "Optical sorting technology ensures uniform size and color, removing any defects before the freezing tunnel."
+      },
+      "cleanLabel": {
+        "title": "Clean Label Focus",
+        "description": "100% natural. No additives, bleaching agents, or preservatives. Meets the highest global food safety standards."
+      }
+    }
+  },
+  "TabFrozenFries": {
+    "title": "Frozen French Fries & Potato Products",
+    "description": "Engineered for performance in commercial fryers. Our fries offer the perfect balance of a crisp exterior and fluffy interior, with consistent length and minimal breakage.",
+    "features": {
+      "consistency": {
+        "title": "Golden Consistency",
+        "description": "Carefully monitored solid content ensures uniform frying and golden color every time."
+      },
+      "cut": {
+        "title": "Precision Cut",
+        "description": "From shoe-string to steak-cut, our high-precision water-jet cutters ensure smooth surfaces."
+      },
+      "recovery": {
+        "title": "Optimized Recovery",
+        "description": "Minimal oil absorption design leads to better yields and healthier profiles for your customers."
+      }
+    }
+  },
+  "customSolutions": {
+    "title": "Custom Tailored Solutions",
+    "description": "We don't just supply products; we partner with you to solve logistics and packaging challenges. Our facility is designed for extreme adaptability.",
+    "solutions": {
+      "packaging": {
+        "title": "Packaging Adaptability",
+        "description": "From 400g retail bags to 1000kg industrial totes, we offer flexible filling lines. Private labeling (OEM) services available with full design support.",
+        "features": {
+          "retail": "Retail-ready Gusset Bags",
+          "bulk": "Bulk Cardboard Totes",
+          "custom": "Custom Weight Configurations"
+        }
+      },
+      "logistics": {
+        "title": "Global Logistics Support",
+        "description": "Seamless export documentation and cold-chain management to any major port worldwide. We maintain -18°C integrity throughout the entire journey.",
+        "features": {
+          "tracking": "Real-time Temperature Tracking",
+          "handling": "Custom Port-of-Entry Handling",
+          "standards": "Certified Phytosanitary Standards"
+        }
+      }
+    }
   }
 
   }

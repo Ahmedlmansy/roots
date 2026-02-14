@@ -4,12 +4,12 @@ import React from "react";
 import { motion, Variants } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, ArrowRight, Award } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function HeroProducts() {
   const t = useTranslations("OurProductsPage.Hero");
-
+  const locale= useLocale();
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -160,7 +160,7 @@ export default function HeroProducts() {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <Link href="/catalog">
+            <Link href={`/${locale}/contact`}>
               <Button
                 size="lg"
                 className="bg-white text-[#243f3d] hover:bg-emerald-50 px-8 py-6 text-lg font-bold rounded-xl shadow-2xl shadow-[#243f3d]/50 group"
@@ -176,7 +176,7 @@ export default function HeroProducts() {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <Link href="/process">
+            <Link href="#">
               <Button
                 size="lg"
                 variant="outline"

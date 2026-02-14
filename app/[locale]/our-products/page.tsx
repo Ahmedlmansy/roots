@@ -1,8 +1,18 @@
+import CustomSolutions from '@/components/sections/OurProducts/CustomSolutions';
 import HeroProducts from '@/components/sections/OurProducts/HeroProducts';
-import React from 'react'
+import ProductTabs from '@/components/sections/OurProducts/TapsProducts';
 
 export default function OurProducts() {
-  return <div>
-    <HeroProducts />
-  </div>;
+  return (
+    <div>
+      {/* Hero Products */}
+      <HeroProducts />
+      {/* Tabs Products */}
+      <ProductTabs />
+      {/* 
+      Custom Solutions
+      */}
+      <CustomSolutions/>
+    </div>
+  );
 }
