@@ -5,6 +5,7 @@ import { motion, Variants } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 interface ProductCategory {
   title: string;
@@ -80,13 +81,14 @@ export default function ProductCategories() {
           transition={{ duration: 0.6 }}
         >
           <motion.h2
-            className="text-4xl md:text-5xl font-black mb-4 text-[#2f5e5a] dark:text-white"
+            className="text-4xl md:text-5xl font-black mb-4 text-[#2f5e5a] dark:text-white flex items-center justify-center gap-2"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            {t("sectionTitle")}
+            <span> <Image src={"/images/Icon.png"} width={50} height={50} alt="Icon" className="ml-2 inline-block" /> </span>
+            <span> {t("sectionTitle")}</span>
           </motion.h2>
           <motion.p
             className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
