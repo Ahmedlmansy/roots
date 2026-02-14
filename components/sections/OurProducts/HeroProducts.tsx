@@ -119,7 +119,7 @@ export default function HeroProducts() {
 
       {/* Content */}
       <motion.div
-        className="relative max-w-7xl mx-30 px-6 py-24 sm:py-32 flex flex-col items-start gap-6"
+        className="relative max-w-7xl mx-15 px-6 py-24 sm:py-32 flex flex-col items-start gap-6"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
