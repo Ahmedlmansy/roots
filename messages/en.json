@@ -108,5 +108,26 @@
         "years": "Years Experience"
       }
     }
+  },
+  "OurProductsPage": {
+  "Hero": {
+    "badge": "B2B Excellence",
+    "title": {
+      "main": "Farm to Freezer,",
+      "highlight": "Perfected."
+    },
+    "description": "High-quality IQF products capturing nature's peak freshness and nutrients for global supply chains. From individual quick freezing to specialized commercial packaging.",
+    "buttons": {
+      "catalog": "Download Catalog",
+      "process": "Our Process"
+    },
+    "stats": {
+      "iqf": "Technology",
+      "iso": "Certified",
+      "support": "Support",
+      "shipping": "Shipping"
+    }
+  }
+
   }
 }
