@@ -3,7 +3,7 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
 import { Award, Check } from "lucide-react";
-import { useLocale, useTranslations } from "next-intl";
+import {  useTranslations } from "next-intl";
 
 interface Feature {
   title: string;
@@ -12,7 +12,6 @@ interface Feature {
 
 export default function FrozenFries() {
     const t = useTranslations("OurProductsPage.TabFrozenFries");
-      const locale = useLocale();
     
 
   const features: Feature[] = [
