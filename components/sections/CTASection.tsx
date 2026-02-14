@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CTASection() {
   const t = useTranslations("HomePage.ctaSection");
@@ -36,8 +37,7 @@ export default function CTASection() {
     },
   };
 
-  // Floating particles animation
-  const particles = Array.from({ length: 15 });
+
 
   return (
     <section className="bg-gradient-to-br from-[#243f3d] via-[#2f5e5a] to-[#243f3d] py-32 relative overflow-hidden">
@@ -116,7 +116,7 @@ export default function CTASection() {
               },
             }}
           >
-            <Sparkles className="w-8 h-8 text-white" />
+            <Image src={"/images/Icon.png"} width={50} height={50} alt="Icon" />
           </motion.div>
         </motion.div>
 

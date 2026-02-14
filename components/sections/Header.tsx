@@ -31,10 +31,10 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="relative w-[140px] sm:w-[180px] lg:w-[220px] h-[50px] sm:h-[60px] lg:h-[80px] flex-shrink-0"
+            className="relative w-[140px] sm:w-[180px] lg:w-[150px] h-[50px] sm:h-[60px] lg:h-[80px] flex-shrink-0"
           >
             <Image
-              src="/images/Logo_H.svg"
+              src="/images/Logo_H.png"
               alt="Roots Logo"
               fill
               className="object-contain"
