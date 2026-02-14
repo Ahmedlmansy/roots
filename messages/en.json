@@ -239,5 +239,19 @@
     }
   }
 
+  },
+  "notFound": {
+    "title": "Oops! Page Not Found",
+    "description": "The page you're looking for seems to have wandered off. Let's get you back on track.",
+    "suggestions": {
+      "home": "Go Home",
+      "search": "Try Search",
+      "explore": "Explore Products"
+    },
+    "buttons": {
+      "home": "Back to Home",
+      "back": "Go Back"
+    },
+    "helpText": "Need help? Contact our support team anytime."
   }
 }
