@@ -240,6 +240,85 @@
   }
 
   },
+  "AboutPage" : {
+     "aboutHero": {
+    "title": "Nourishing the World from the Ground Up",
+    "description": "A global leader in high-quality industrial food solutions and export-ready logistics, rooted in excellence since inception.",
+    "stats": {
+      "founded": "Founded",
+      "countries": "Countries",
+      "quality": "Quality"
+    }
+  },
+  "whoWeAre": {
+    "badge": "Who We Are",
+    "title": "Bridging the Gap Between Sustainable Farming and Global Markets",
+    "description": "Roots Foods Co. operates at the intersection of traditional agriculture and modern industrial technology. We specialize in the large-scale processing and distribution of premium food products, ensuring that the highest standards of quality are maintained from the soil to the shipping container.",
+    "stats": {
+      "years": {
+        "value": "28+",
+        "label": "Years of Excellence"
+      },
+      "countries": {
+        "value": "40+",
+        "label": "Countries Reached"
+      }
+    },
+    "badge2": {
+      "industrial": {
+        "title": "Industrial Scale",
+        "subtitle": "Export-ready operations."
+      }
+    }
+  },
+  "corePrinciples": {
+    "sectionTitle": "Core Principles",
+    "sectionDescription": "Our foundation is built on transparency, reliability, and an unwavering commitment to feeding a growing population sustainably.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide sustainable, high-quality food solutions globally by empowering farmers through technology and ensuring food security through efficient, carbon-neutral supply chains.",
+      "points": [
+        "Technology-driven farming empowerment",
+        "High-volume industrial output"
+      ]
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the preferred global partner in the food supply chain, setting the gold standard for food traceability and leading the industry in ethical export practices by 2030.",
+      "points": [
+        "Carbon-neutral global exports",
+        "Industry-leading food traceability"
+      ]
+    }
+  },
+  "processSteps": {
+    "step1": {
+      "number": "Step 01",
+      "title": "Strategic Logistics Network",
+      "description": "Our state-of-the-art facilities are strategically located near major transit hubs. This ensures \"export-ready\" status for all products, minimizing transit times and maximizing freshness for international markets.",
+      "linkText": "Learn about our network"
+    },
+    "step2": {
+      "number": "Step 02",
+      "title": "Rigorous Quality Control",
+      "description": "Quality is not just a promise; it's a protocol. Every batch undergoes exhaustive testing in our certified labs to meet and exceed the most stringent global food safety standards, including ISO and Global GAP."
+    }
+  },
+  "partnerCTA": {
+    "title": "Ready to Partner with Roots?",
+    "description": "Contact our global export team today to discuss high-volume industrial food solutions tailored to your market needs.",
+    "buttons": {
+      "quote": "Get a Quote",
+      "catalog": "View Product Catalog"
+    },
+    "indicators": {
+      "support": "Support",
+      "countries": "Countries",
+      "certified": "Certified"
+    }
+  }
+  }
+  ,
   "notFound": {
     "title": "Oops! Page Not Found",
     "description": "The page you're looking for seems to have wandered off. Let's get you back on track.",
