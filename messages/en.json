@@ -241,7 +241,7 @@
 
   },
   "AboutPage" : {
-     "aboutHero": {
+  "aboutHero": {
     "title": "Nourishing the World from the Ground Up",
     "description": "A global leader in high-quality industrial food solutions and export-ready logistics, rooted in excellence since inception.",
     "stats": {
@@ -317,8 +317,107 @@
       "certified": "Certified"
     }
   }
+  },
+  "FacilitiesPage":{
+   "facilitiesHero": {
+    "badge": "Operational Excellence",
+    "title": "World-Class Industrial Infrastructure",
+    "description": "Powering the future of food production with precision-engineered freezing, storage, and distribution systems across 1.2M+ square feet.",
+    "buttons": {
+      "specs": "Download Specs",
+      "tour": "Virtual Tour"
+    }
+  },
+   "facilityStats": {
+    "stats": {
+      "footprint": {
+        "label": "Total Footprint",
+        "value": "1.2M+",
+        "unit": "SQ FT CAPACITY"
+      },
+      "throughput": {
+        "label": "Annual Throughput",
+        "value": "500M+",
+        "unit": "LBS PROCESSED"
+      },
+      "storage": {
+        "label": "Storage Volume",
+        "value": "85k+",
+        "unit": "PALLET POSITIONS"
+      },
+      "zones": {
+        "label": "Precision Zones",
+        "value": "5",
+        "unit": "TEMP CONTROLLED"
+      }
+    }
+  },
+  "precisionFreezing": {
+    "sectionTitle": "Precision Freezing Systems",
+    "sectionDescription": "We utilize state-of-the-art IQF technology and high-velocity blast freezers to preserve cellular integrity and nutrient density.",
+    "systems": {
+      "iqf": {
+        "title": "IQF Technology",
+        "description": "Individually Quick Frozen systems ensure each piece of produce is frozen separately, preventing clumping and maintaining texture."
+      },
+      "blast": {
+        "title": "High-Velocity Blast",
+        "description": "Industrial-grade air circulation units capable of reducing core temperatures to -40°F in record time for maximum safety."
+      },
+      "monitoring": {
+        "title": "Smart Monitoring",
+        "description": "Real-time IoT sensors monitor temperature, humidity, and airflow 24/7 across every cubic inch of our storage facilities."
+      }
+    }
+  },
+  "supplyChain": {
+    "badge": "Connectivity",
+    "title": "Supply Chain & Distribution Network",
+    "features": {
+      "fleet": {
+        "title": "Dedicated Fleet",
+        "description": "Temperature-controlled trucking fleet equipped with telematics and GPS tracking for precise delivery windows."
+      },
+      "locations": {
+        "title": "Strategic Locations",
+        "description": "Facilities positioned within 4 hours of major international ports and transcontinental rail hubs."
+      },
+      "sorting": {
+        "title": "Automated Sorting",
+        "description": "Advanced WMS integration allows for seamless cross-docking and inventory management."
+      }
+    },
+    "badge2": {
+      "coverage": {
+        "label": "Next-Day Reach",
+        "value": "90% Coverage"
+      }
+    }
+  },
+  "industrialPurity": {
+    "title": "Industrial Purity",
+    "description": "Our facilities exceed GFSI and SQF standards for food safety.",
+    "linkText": "View Safety Certifications"
+  },
+  "certificationsBadges": {
+    "badges": {
+      "gfsi": "GFSI CERTIFIED",
+      "sqf": "SQF LEVEL 3",
+      "usda": "USDA ORGANIC",
+      "haccp": "HACCP READY"
+    }
+  },
+  "facilitiesCTA": {
+    "title": "Ready to Scale Your Production?",
+    "description": "Inquire about our facility availability, private labeling, and custom cold chain solutions.",
+    "buttonText": "Speak with our Facilities Team",
+    "stats": {
+      "sqft": "Sq Ft Capacity",
+      "operations": "Operations",
+      "certified": "Certified"
+    }
   }
-  ,
+  },
   "notFound": {
     "title": "Oops! Page Not Found",
     "description": "The page you're looking for seems to have wandered off. Let's get you back on track.",
