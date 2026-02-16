@@ -655,6 +655,46 @@
     }
   }
   
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you. Whether you have a question about our ingredients, recipes, or just want to say hi, our team is here to help."
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "hello@example.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "+1 (555) 000-0000"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "How can we help?"
+      },
+      "submit": "Send Message"
+    },
+    "methods": {
+      "email": {
+        "title": "Email us",
+        "content": "info@rootsfoodsco.com"
+      },
+      "phone": {
+        "title": "Call us",
+        "content": "+1 (555) 000-0000",
+        "hours": "Mon-Fri from 8am to 5pm"
+      },
+      "location": {
+        "title": "Visit us",
+        "content": "Industrial Zone A4, 10th of Ramadan City, Egypt"
+      }
+    }
   }
   ,
   "notFound": {

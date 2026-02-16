@@ -4,6 +4,39 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Fix للخريطة */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-pane {
+  z-index: 400;
+}
+
+.leaflet-tile-pane {
+  z-index: 200;
+}
+
+.leaflet-overlay-pane {
+  z-index: 400;
+}
+
+.leaflet-shadow-pane {
+  z-index: 500;
+}
+
+.leaflet-marker-pane {
+  z-index: 600;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 650;
+}
+
+.leaflet-popup-pane {
+  z-index: 700;
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
