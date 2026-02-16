@@ -4,7 +4,7 @@ import React from "react";
 import { motion, Variants } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, Mail, BadgeCheck, Clock } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
 interface StatusCard {
@@ -18,7 +18,7 @@ interface StatusCard {
 
 export default function TransparencySection() {
   const t = useTranslations("QualityPage.transparency");
-
+  const locale = useLocale();
   const statusCards: StatusCard[] = [
     {
       icon: <BadgeCheck className="w-6 h-6" />,
@@ -118,7 +118,7 @@ export default function TransparencySection() {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
-                <Link href="/datasheets">
+                <Link href={`/${locale}/contact`}>
                   <Button
                     size="lg"
                     className="bg-gradient-to-r from-[#243f3d] to-[#2f5e5a] text-white px-6 py-6 rounded-xl font-bold group"
@@ -135,7 +135,7 @@ export default function TransparencySection() {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
-                <Link href="/contact-qa">
+                <Link href={`/${locale}/contact`}>
                   <Button
                     size="lg"
                     variant="outline"
