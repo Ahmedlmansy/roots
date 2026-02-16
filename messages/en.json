@@ -418,6 +418,128 @@
     }
   }
   },
+  "ProductionPage":{
+    "ProductionHero": {
+    "badge": "Precision Cooling Systems",
+    "title": {
+      "main": "The Infrastructure",
+      "subtitle": "of Freshness"
+    },
+    "description": "We deploy industry-leading IQF technology and real-time monitored cold-chain infrastructure to ensure nature's integrity is preserved at the molecular level.",
+    "buttons": {
+      "specs": "View Technical Specs",
+      "tour": "Facility Tour"
+    }
+  },
+  "productionMetrics": {
+    "cards": {
+      "temperature": {
+        "id": "Terminal ID: 098-B",
+        "label": "Facility Temperature",
+        "value": "-18.4°C"
+      },
+      "throughput": {
+        "id": "Throughput",
+        "label": "Processing Flow Rate",
+        "value": "2.8",
+        "unit": "T/hr",
+        "footer": "+12% vs. Last Qtr"
+      },
+      "sensors": {
+        "id": "Monitoring",
+        "label": "Active IoT Sensors",
+        "value": "1,248",
+        "footer": "Uptime 99.99%"
+      },
+      "nutrient": {
+        "id": "Retention",
+        "label": "Nutrient Integrity",
+        "value": "99.2%",
+        "footer": "Peak Optimization"
+      }
+    }
+  },
+  "iqfTechnology": {
+    "badge": "The Science of Preservation",
+    "title": "Advanced Individual Quick Freezing (IQF)",
+    "description": "Our proprietary IQF tunnels utilize fluidized bed technology, ensuring each berry, pea, or floret is frozen independently. This rapid process prevents the formation of large ice crystals, preserving the delicate cellular wall structure of organic produce.",
+    "features": {
+      "flash": {
+        "title": "Flash Induction",
+        "description": "Core temperature reached in < 3 minutes."
+      },
+      "airflow": {
+        "title": "Uniform Airflow",
+        "description": "360° cryogenic exposure for even chilling."
+      },
+      "brix": {
+        "title": "Brix Preservation",
+        "description": "Natural sugar levels locked at peak harvest."
+      },
+      "chemical": {
+        "title": "Zero Chemical",
+        "description": "100% physical preservation method."
+      }
+    },
+    "badge2": {
+      "stat": {
+        "value": "98%",
+        "label": "Higher Nutrient Retention vs. Canning"
+      }
+    }
+  },
+  "precisionFlow": {
+    "badge": "Operations Pipeline",
+    "title": "The Precision Flow",
+    "steps": {
+      "intake": {
+        "title": "Post-Harvest Intake",
+        "description": "Incoming produce is sanitized and sorted within 4 hours of farm extraction using optical grading technology."
+      },
+      "iqf": {
+        "title": "IQF Immersion",
+        "description": "Individual items pass through a high-velocity cryogenic air stream, halting cellular degradation instantly."
+      },
+      "storage": {
+        "title": "Controlled Storage",
+        "description": "Sealed items are moved to our -18°C automated storage system with multi-point temperature telemetry."
+      },
+      "logistics": {
+        "title": "Integrated Logistics",
+        "description": "Direct dispatch to global markets via monitored reefer containers, maintaining the cold-chain end-to-end."
+      }
+    }
+  },
+  "climateControl": {
+    "title": "Climate Control Security",
+    "quote": "We treat temperature as a variable that must never change.",
+    "overlay": {
+      "temperature": "-18.00°C",
+      "status": "System Stability Verified"
+    },
+    "features": {
+      "alerts": {
+        "title": "Automated Alert Systems",
+        "description": "Instant notifications for any fluctuation exceeding 0.5°C from the setpoint."
+      },
+      "power": {
+        "title": "Triple-Redundant Power",
+        "description": "Dedicated backup generators and solar arrays ensure 100% cooling uptime."
+      }
+    }
+  },
+  "compliance": {
+    "title": "Compliance",
+    "description": "Our facility meets and exceeds international standards for food safety and environmental impact.",
+    "certifications": {
+      "iso": "ISO 22000",
+      "haccp": "HACCP Certified",
+      "leed": "LEED Gold",
+      "gap": "Global G.A.P."
+    }
+  }
+  }
+  ,
   "notFound": {
     "title": "Oops! Page Not Found",
     "description": "The page you're looking for seems to have wandered off. Let's get you back on track.",
