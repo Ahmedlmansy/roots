@@ -419,7 +419,7 @@
   }
   },
   "ProductionPage":{
-    "ProductionHero": {
+  "ProductionHero": {
     "badge": "Precision Cooling Systems",
     "title": {
       "main": "The Infrastructure",
@@ -538,6 +538,123 @@
       "gap": "Global G.A.P."
     }
   }
+  }, 
+  "QualityPage" : {
+  "qualityHero": {
+    "badge": "Global Standards Verified",
+    "title": {
+      "main": "Rooted in Quality,",
+      "highlight": "Driven by Safety."
+    },
+    "description": "Our uncompromising commitment to global food safety standards ensures excellence from farm to table. Every harvest is handled with clinical precision.",
+    "buttons": {
+      "certifications": "View Certifications",
+      "audit": "Download Audit 2024"
+    }
+  },
+  "qualityPillars": {
+    "badge": "Our Foundation",
+    "title": "Quality Assurance Pillars",
+    "description": "We maintain the highest industrial standards across all our operations, ensuring that the roots of our products are as pure as the finished result.",
+    "pillars": {
+      "hygiene": {
+        "title": "Hygiene Standards",
+        "description": "Strict sanitation protocols for personnel and medical-grade sterilization for all facilities."
+      },
+      "monitoring": {
+        "title": "Monitoring & Control",
+        "description": "Real-time IoT monitoring of atmospheric conditions and production variables 24/7."
+      },
+      "sourcing": {
+        "title": "Sourcing Integrity",
+        "description": "Full transparency and blockchain-ready traceability for every raw ingredient harvested."
+      },
+      "compliance": {
+        "title": "Global Compliance",
+        "description": "Adherence to international regulatory frameworks including ISO, BRCGS, and HACCP."
+      }
+    }
+  },
+  "accreditations": {
+    "badge": "Accreditations",
+    "title": "International Compliance & Global Certifications",
+    "description": "Roots is proud to maintain Tier-1 certifications recognized by the Global Food Safety Initiative (GFSI). Our facilities undergo unannounced audits to ensure perpetual compliance.",
+    "certifications": {
+      "iso": {
+        "title": "ISO 22000:2018",
+        "description": "International standard for food safety management systems."
+      },
+      "brcgs": {
+        "title": "BRCGS Grade AA+",
+        "description": "Highest rating for global standards for food safety."
+      },
+      "haccp": {
+        "title": "HACCP Certified",
+        "description": "Systematic preventive approach to food safety."
+      }
+    },
+    "metrics": {
+      "audit": {
+        "value": "99.9%",
+        "label": "Audit Score"
+      },
+      "testing": {
+        "value": "Daily",
+        "label": "Lab Testing"
+      },
+      "traceability": {
+        "value": "100%",
+        "label": "Traceability"
+      },
+      "countries": {
+        "value": "40+",
+        "label": "Countries"
+      }
+    }
+  },
+  "monitoringSystems": {
+    "title": "Real-Time Monitoring Systems",
+    "description": "We utilize advanced IoT sensors and AI-driven analytics to monitor critical control points in real-time. This \"Smart Facility\" approach allows for zero-latency response to quality shifts.",
+    "systems": {
+      "coldChain": {
+        "title": "Cold Chain Integrity",
+        "subtitle": "Continuous temperature logging",
+        "current": "Current: -18.2°C",
+        "target": "Target: -18.0°C"
+      },
+      "microbial": {
+        "title": "Microbial Testing",
+        "subtitle": "Automated lab sample tracking",
+        "batch": "Batch #4492-A",
+        "status": "PASS"
+      },
+      "detection": {
+        "title": "Foreign Matter Detection",
+        "subtitle": "X-Ray and Metal Detection units",
+        "label": "Accuracy Rate",
+        "value": "99.98%"
+      }
+    }
+  },
+  "transparency": {
+    "title": "Transparency for Partners",
+    "description": "Need detailed reports for your compliance audit? Access our full suite of safety documentation and certifications directly from our B2B portal.",
+    "buttons": {
+      "datasheets": "Technical Datasheets",
+      "contact": "Contact QA Team"
+    },
+    "cards": {
+      "status": {
+        "label": "Status",
+        "value": "Fully Compliant"
+      },
+      "audit": {
+        "label": "Last Audit",
+        "value": "Oct 2024"
+      }
+    }
+  }
+  
   }
   ,
   "notFound": {
