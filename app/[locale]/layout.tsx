@@ -160,6 +160,7 @@ export default async function LocaleLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content={COMPANY_INFO.name} />
         <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
 
         {/* Structured Data - Organization */}
         <script

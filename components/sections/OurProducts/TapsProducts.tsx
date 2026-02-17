@@ -35,7 +35,7 @@ const locale = useLocale();
                 <TabsTrigger
                   value={tab.value}
                   className="
-                  pt-10 pb-5 px-2  sm:px-10
+                  pt-10 pb-3 px-1  sm:px-10 text-[18px] font-sm font-bold 
   "
                 >
                   {tab.label}
