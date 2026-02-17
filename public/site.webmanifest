@@ -1,0 +1,21 @@
+{
+  "name": "Roots Foods Company",
+  "short_name": "Roots",
+  "description": "Premium frozen food solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#243f3d",
+  "icons": [
+    {
+      "src": "/images/Icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/Icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

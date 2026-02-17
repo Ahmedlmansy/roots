@@ -47,7 +47,7 @@ export default function FacilitiesHeroSection() {
   };
 
   return (
-    <section className="relative w-full h-[90vh] flex items-center overflow-hidden">
+    <section className="relative w-full h-[95vh] flex items-center overflow-hidden">
       {/* Background Image with Gradient Overlay */}
       <motion.div
         className="absolute inset-0"

@@ -8,14 +8,16 @@ import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {  usePathname } from "next/navigation";
 
 export default function Header() {
   const locale = useLocale();
   const t = useTranslations("layout.header");
   const [isOpen, setIsOpen] = useState(false);
-
+  const prams = usePathname();
+  
   const navlinks = [
-    { name: t("home"), href: "/" },
+    { name: t("home"), href: `/${locale}` },
     { name: t("facilities"), href: `/${locale}/facilities` },
     { name: t("our-products"), href: `/${locale}/our-products` },
     { name: t("production"), href: `/${locale}/production` },
@@ -48,10 +50,12 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="relative text-sm xl:text-base font-medium text-[#243f3d] hover:text-[#2f5e5a] transition-all duration-300 group"
+                className={`relative text-sm xl:text-base font-medium text-[#243f3d] hover:text-[#2f5e5a] transition-all duration-300 group`}
               >
                 {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#2f5e5a] group-hover:w-full transition-all duration-300" />
+                <span
+                  className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-[#2f5e5a] group-hover:w-full transition-all duration-300 ${locale === "ar" ? "origin-right" : "origin-left"} ${prams === link.href ? "w-full" : ""}`}
+                />
               </Link>
             ))}
           </nav>
